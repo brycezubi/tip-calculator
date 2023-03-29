@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --Strong-cyan: hsl(172, 67%, 45%);
+  --Light-cyan: hsl(185, 41%, 84%);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Space Mono', monospace;
+  font-size: 2.4rem;
+  background-color: var(--Light-cyan);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input::selection{
+ 
+}
+input::-webkit-inner-spin-button{
+  appearance: none;
+}
+
